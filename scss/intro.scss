@@ -1,0 +1,49 @@
+@import '_buttons.scss';
+.intro {
+    background: url('../img/header_pictures/bg-header.png') no-repeat;
+    background-position: top center;
+    display: flex;
+    justify-content: space-between;
+    padding: 169px 0 0 0;
+
+    &__container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.info-block {
+    margin: 171px 0 0 0;
+
+    &__title {
+        font-family: 'Georgia';
+        font-size: 44px;
+        color: #FFFFFF;
+        line-height: 130%
+    }
+
+    &__text {
+        font-family: 'Arial';
+        font-size: 15px;
+        color: #CDCDCD;
+        margin: 42px 0 0 0;
+        line-height: 24px;
+    }
+
+    &__button {
+        @extend %button;
+        background: #F1CDB3;
+        margin: 42px 0 0 0;
+        transition: .2s;
+        &:hover {
+            background: darken(#F1CDB3, 10%);
+            border: 2px solid #FFF;
+            border-radius: 0;
+        }
+    }
+}

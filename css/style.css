@@ -248,4 +248,69 @@ template {
   top: 20px;
 }
 
+.info-block__button {
+  padding: 15px 45px;
+  border: 1px solid #F1CDB3;
+  border-radius: 100px;
+  color: #292929;
+  font-family: "Georgia";
+  font-size: 17px;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+.intro {
+  background: url("../img/header_pictures/bg-header.png") no-repeat;
+  background-position: top center;
+  display: flex;
+  justify-content: space-between;
+  padding: 169px 0 0 0;
+}
+.intro__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.intro__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-block {
+  margin: 171px 0 0 0;
+}
+.info-block__title {
+  font-family: "Georgia";
+  font-size: 44px;
+  color: #FFFFFF;
+  line-height: 130%;
+}
+.info-block__text {
+  font-family: "Arial";
+  font-size: 15px;
+  color: #CDCDCD;
+  margin: 42px 0 0 0;
+  line-height: 24px;
+}
+.info-block__button {
+  background: #F1CDB3;
+  margin: 42px 0 0 0;
+  transition: 0.2s;
+}
+.info-block__button:hover {
+  background: #e9b188;
+  border: 2px solid #FFF;
+  border-radius: 0;
+}
+
+.info-block__button {
+  padding: 15px 45px;
+  border: 1px solid #F1CDB3;
+  border-radius: 100px;
+  color: #292929;
+  font-family: "Georgia";
+  font-size: 17px;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
 /*# sourceMappingURL=style.css.map */
