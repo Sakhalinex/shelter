@@ -10,26 +10,26 @@
         align-items: center;
         padding: 71px 0 100px 0;
     }
-}
 
-.about-text {
-    &__title {
-        font-family: Georgia;
-        font-size: 35px;
-        color: #545454;
-        line-height: 130%;
-        letter-spacing: 0.06em;
-    }
-
-    &__text {
-        font-size: 15px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #4C4C4C;
-        max-width: 430px;
-        line-height: 24px;
-
-        &--1 {
-            margin: 25px 0;
+    .info-block {
+        &__title {
+            font-family: Georgia;
+            font-size: 35px;
+            color: #545454;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+        }
+    
+        &__text {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #4C4C4C;
+            max-width: 430px;
+            line-height: 24px;
+    
+            &--1 {
+                margin: 25px 0;
+            }
         }
     }
 }

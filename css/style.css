@@ -248,7 +248,7 @@ template {
   top: 20px;
 }
 
-.info-block__button {
+.intro .info-block__button {
   padding: 15px 45px;
   border: 1px solid #F1CDB3;
   border-radius: 100px;
@@ -274,35 +274,34 @@ template {
   display: flex;
   justify-content: space-between;
 }
-
-.info-block {
+.intro .info-block {
   margin: 171px 0 0 0;
 }
-.info-block__title {
+.intro .info-block__title {
   font-family: "Georgia";
   font-size: 44px;
   color: #FFFFFF;
   line-height: 130%;
 }
-.info-block__text {
+.intro .info-block__text {
   font-family: "Arial";
   font-size: 15px;
   color: #CDCDCD;
   margin: 42px 0 0 0;
   line-height: 24px;
 }
-.info-block__button {
+.intro .info-block__button {
   background: #F1CDB3;
   margin: 42px 0 0 0;
   transition: 0.2s;
 }
-.info-block__button:hover {
+.intro .info-block__button:hover {
   background: #e9b188;
   border: 2px solid #FFF;
   border-radius: 0;
 }
 
-.info-block__button {
+.intro .info-block__button {
   padding: 15px 45px;
   border: 1px solid #F1CDB3;
   border-radius: 100px;
@@ -323,22 +322,21 @@ template {
   align-items: center;
   padding: 71px 0 100px 0;
 }
-
-.about-text__title {
+.about .info-block__title {
   font-family: Georgia;
   font-size: 35px;
   color: #545454;
   line-height: 130%;
   letter-spacing: 0.06em;
 }
-.about-text__text {
+.about .info-block__text {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: #4C4C4C;
   max-width: 430px;
   line-height: 24px;
 }
-.about-text__text--1 {
+.about .info-block__text--1 {
   margin: 25px 0;
 }
 
