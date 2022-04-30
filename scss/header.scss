@@ -5,7 +5,7 @@
     right: 0;
 
     &__container {
-        max-width: 1200px;
+        max-width: 75rem;
         margin: 0 auto;
     }
 
@@ -22,17 +22,18 @@
     
     &__title {
         color: #F1CDB3;
-        font-size: 32px;
+        font-size: 2rem;
         font-family: Georgia;
-        letter-spacing: 1.8px;
+        letter-spacing: 0.0192em;
     }
+
     &__subtitle {
-        font-size: 13px;
+        font-size: 0.8125rem;
         font-family: Arial, Helvetica, sans-serif;
         letter-spacing: 1.5px;
         color: white;
         display: block;
-        margin: 8px 0 0 0;
+        margin: 0.6153em 0 0 0;
     }
 }
 
@@ -43,7 +44,7 @@
     }
 
     &__list-item {
-        margin-left: 35px;
+        margin-left: 2.1875rem;
 
         &:nth-child(1) {
             margin: 0;
@@ -51,7 +52,7 @@
     }
 
     &__list-link {
-        font-size: 15px;
+        font-size: 0.9375em;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         position: relative;
