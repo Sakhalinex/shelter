@@ -248,15 +248,15 @@ template {
   top: 20px;
 }
 
-.intro .info-block__button {
+.slider__btn-rest, .slider__btn-more, .intro .info-block__button {
+  display: inline-block;
   padding: 15px 45px;
-  border: 1px solid #F1CDB3;
+  border: 2px solid #F1CDB3;
   border-radius: 100px;
   color: #292929;
   font-family: "Georgia";
-  font-size: 17px;
-  display: inline-block;
-  letter-spacing: 1px;
+  font-size: 1.0625rem;
+  letter-spacing: 0.06em;
 }
 
 .intro {
@@ -301,15 +301,15 @@ template {
   border-radius: 0;
 }
 
-.intro .info-block__button {
+.slider__btn-rest, .slider__btn-more, .intro .info-block__button {
+  display: inline-block;
   padding: 15px 45px;
-  border: 1px solid #F1CDB3;
+  border: 2px solid #F1CDB3;
   border-radius: 100px;
   color: #292929;
   font-family: "Georgia";
-  font-size: 17px;
-  display: inline-block;
-  letter-spacing: 1px;
+  font-size: 1.0625rem;
+  letter-spacing: 0.06em;
 }
 
 .about__container {
@@ -338,6 +338,85 @@ template {
 }
 .about .info-block__text--1 {
   margin: 25px 0;
+}
+
+.slider__btn-rest, .slider__btn-more, .intro .info-block__button {
+  display: inline-block;
+  padding: 15px 45px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  color: #292929;
+  font-family: "Georgia";
+  font-size: 1.0625rem;
+  letter-spacing: 0.06em;
+}
+
+.friends {
+  background: #F6F6F6;
+  padding: 5.1875rem;
+}
+.friends__container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+.friends__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.friends__title {
+  font-size: 2.1875rem;
+  font-family: Georgia;
+  letter-spacing: 0.06em;
+  line-height: 1.3em;
+  color: #545454;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.25rem;
+}
+.slider button {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #F1CDB3;
+  background: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.slider__view {
+  width: 82.5%;
+}
+.slider__track {
+  display: flex;
+  justify-content: space-between;
+}
+.slider__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FAFAFA;
+  padding: 0 0 1.875rem 0;
+}
+.slider__title {
+  font-family: Georgia;
+  font-size: 1.25rem;
+  color: #545454;
+  line-height: 1.136em;
+  letter-spacing: 0.06em;
+  margin: 1.45em 0;
+}
+.slider__btn-rest {
+  background: #F1CDB3;
+  margin-top: 3.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
