@@ -1,0 +1,51 @@
+.help {
+    padding: 5rem 0 6.25rem 0;
+    &__container {
+        max-width: 64.1250rem;
+        margin: 0 auto;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 2.1875rem;
+        font-family: Georgia;
+        letter-spacing: 0.06em;
+        line-height: 1.3em;
+        color: #545454;
+        text-align: center;
+    }
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 3.75rem;
+    column-gap: 7.45rem;
+    margin: 3.5625rem 0 0 0;
+
+    &__item {
+        text-align: center;
+
+        &-image {
+            width: 60px;
+            height: 60px;
+        }
+
+        &-name {
+            display: block;
+            font-family: Georgia;
+            color: #545454;
+            font-size: 1.25rem;
+            line-height: 1.15em;
+            letter-spacing: 0.06em;
+            margin: 1.35em 0 0 0;
+            white-space: nowrap;
+        }
+    }
+}
