@@ -31,17 +31,36 @@
     justify-content: space-between;
     margin-top: 3.25rem;
 
+    @keyframes hoverBtn {
+        0% {transform: translateX(10px)}
+        20% {transform: translateX(10.5px)}
+        40% {transform: translateX(11px)}
+        60% {transform: translateX(11.5px)}
+        80% {transform: translateX(12px)}
+        100% {}
+    }
+
     button {
         width: 52px;
         height: 52px;
         border-radius: 50%;
         border: 2px solid #F1CDB3;
-        background: none;
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
+        transition: .1s ease-in-out;
+
+        &:hover {
+            transform: translateX(3px);
+            border: 1px solid #F1CDB3;
+        }
+
+        &:nth-child(1):hover {
+            transform: translateX(-3px);
+            border: 1px solid #F1CDB3;
+        }
     }
 
     &__view {
@@ -59,6 +78,19 @@
         align-items: center;
         background: #FAFAFA;
         padding: 0 0 1.875rem 0;
+        cursor: pointer;
+        transition: .2s;
+
+        &:hover a {
+            background: #F1CDB3;
+            box-shadow: 0px 0px 10px 5px rgba(255, 153, 79, 0.2);
+        }
+
+        &:hover {
+            box-shadow: 0px 15px 10px 5px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px);
+            background: darken( #FAFAFA, 5%);
+        }
     }
 
     &__title {
@@ -72,11 +104,20 @@
 
     &__btn-more {
         @extend %button;
+        transition: .2s;
     }
 
     &__btn-rest {
         @extend %button;
         background: #F1CDB3;
         margin-top: 3.75rem;
+        transition: .2s ease;
+
+        &:hover {
+            letter-spacing: 0.08em;
+            background: #ffe8d8;
+            color: #000;
+            font-size: 1.07rem;
+        }
     }
 }
