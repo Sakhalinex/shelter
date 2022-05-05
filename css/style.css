@@ -525,4 +525,60 @@ template {
   font-style: italic;
 }
 
+.footer {
+  background: url("../img/footer_pictures/footer-gradient-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 2.5rem 0 0 0;
+}
+.footer__container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .contact__title,
+.footer .address__title {
+  font-size: 2.1875rem;
+  font-family: Georgia;
+  letter-spacing: 0.06em;
+  line-height: 1.3em;
+  color: #FFF;
+}
+
+.contact__email, .contact__phone {
+  display: flex;
+  align-items: center;
+  font-family: Georgia;
+  font-size: 1.25rem;
+  line-height: 1.15em;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+.contact__email span, .contact__phone span {
+  margin: 0 0 0 1em;
+}
+.contact__email {
+  margin: 1.75em 0;
+}
+
+.address__item {
+  display: flex;
+  align-items: center;
+  font-family: Georgia;
+  font-size: 1.25rem;
+  line-height: 1.15em;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+.address__item:nth-child(2) {
+  margin: 1.6em 0;
+}
+.address__item span {
+  margin: 0 0 0 1em;
+}
+
 /*# sourceMappingURL=style.css.map */

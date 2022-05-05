@@ -1,0 +1,66 @@
+.footer {
+    background: url('../img/footer_pictures/footer-gradient-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2.5rem 0 0 0;
+    &__container {
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact__title,
+    .address__title {
+        font-size: 2.1875rem;
+        font-family: Georgia;
+        letter-spacing: 0.06em;
+        line-height: 1.3em;
+        color: #FFF;
+    }
+}
+
+.contact {
+    &__email,
+    &__phone {
+        display: flex;
+        align-items: center;
+
+        font-family: Georgia;
+        font-size: 1.25rem;
+        line-height: 1.15em;
+        letter-spacing: 0.06em;
+        color: #F1CDB3;
+
+        span {
+            margin: 0 0 0 1em;
+        }
+    }
+
+    &__email {
+        margin: 1.75em 0;
+    }
+}
+
+.address {
+    &__item {
+        &:nth-child(2) {
+            margin: 1.6em 0;
+        }
+
+        display: flex;
+        align-items: center;
+        font-family: Georgia;
+        font-size: 1.25rem;
+        line-height: 1.15em;
+        letter-spacing: 0.06em;
+        color: #F1CDB3;
+
+        span {
+            margin: 0 0 0 1em;
+        }
+    }
+}
